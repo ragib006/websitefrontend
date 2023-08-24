@@ -195,7 +195,7 @@ const handleClick = async (e) => {
 
   <div className="mb-3">
   <label for="exampleFormControlInput1" className="form-label">Book Rating</label>
-  <input type="number" min="1" max="5"  className="form-control" id="rating" onChange={handleChange} placeholder="Enter Book Rating Between 1 to 10" required/>
+  <input type="number" min="1" max="5"  className="form-control" id="rating" onChange={handleChange} placeholder="Enter Book Rating Between 1 to 5" required/>
   </div>
 
 
